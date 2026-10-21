@@ -1,0 +1,27 @@
+# Week 5 MCP agent assignment - pinned dependencies
+# Requires Python >= 3.12 (written for Python 3.13 on Linux x86_64)
+# Install with:  pip install -r requirements.txt
+# Exact environment: requirements-lock.txt
+
+# MCP server and client (JSON-RPC over stdio)
+mcp==2.3.0
+pydantic==2.14.1
+
+# Tool back-ends: SIMBAD TAP via astroquery, arXiv API via the arxiv package
+astroquery==0.4.11
+astropy==8.0.1
+pyvo==1.9.1
+numpy==2.5.4
+arxiv==4.0.1
+
+# LLM client and API-key handling
+anthropic==1.11.0
+python-dotenv==1.2.4
+
+# Tables in the notebook
+pandas==3.0.6
+
+# Notebook runtime
+jupyter==1.1.1
+ipykernel==7.4.0
+nbconvert==7.17.1
